@@ -1,0 +1,16 @@
+.flies{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.flies__sun{
+  width: 90px;	
+}
+.flies__buttons{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+

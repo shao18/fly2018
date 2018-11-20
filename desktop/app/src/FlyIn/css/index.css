@@ -1,0 +1,13 @@
+.flyin {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-between;
+}
+.flyin_checked-true{
+  outline: 1px solid grey;
+}
+.flyin__checkbox{
+  display:none;
+}

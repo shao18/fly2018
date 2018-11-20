@@ -1,0 +1,14 @@
+.flyout {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.flyout_checked-true{
+  outline: 1px solid gray;
+}
+
+.flyout__checkbox{
+  display:none;
+}
