@@ -93,8 +93,10 @@ class Flies extends Component {
       /* Station_type: airport*/
       /* Transport_type: plane*/
       /* `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=bd5e378503939ddaee76f12ad7a97608`*/
-      `https://api.rasp.yandex.net/v3.0/schedule/?apikey=dc96082a-c0f3-4699-aaf9-f32908c4a33e&format=json&lang=en_RU&&station=${city}&transport_types=plane`
-      /* `http://api.rasp.yandex.net/v3.0/schedule/?apikey=27cc38c3-fd6f-4da5-83a6-a2ecb491f985&format=json&lang=en_RU&&station=${city}&transport_types=plane`,*/
+      `https://api.rasp.yandex.net/v3.0/schedule/?apikey=dc96082a-c0f3-4699-aaf9-f32908c4a33e&format=json&lang=en_RU&&station=${city}&transport_types=plane`,
+      /* `http://api.rasp.yandex.net/v3.0/schedule/?apikey=27cc38c3-fd6f-4da5-83a6-a2ecb491f985&format=json&lang=en_RU&&station=${city}&transport_types=plane`,*/ {
+        mode: "no-cors"
+      }
     )
       .then(resp => {
         // eslint-disable-next-line
