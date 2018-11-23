@@ -7,6 +7,19 @@
 .flies__sun{
   width: 90px;	
 }
+.flies__title {
+  font-family: "URW Chancery L", sans-serif;
+  font-size: 6em;
+  color: dimgray;
+  text-shadow: 7px 3px beige;
+  margin-top: -67px;
+  margin-bottom: 10px;
+  z-index: -1;
+  text-align: center;
+}
+.flies__title::first-letter {
+  text-transform: uppercase
+}
 .flies__buttons{
   width: 100%;
   display: flex;

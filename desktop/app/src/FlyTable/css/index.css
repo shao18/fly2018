@@ -1,0 +1,20 @@
+.flytable {
+  border-collapse: collapse;
+}
+.flytable__head {
+  background-color: beige;
+}
+.flytable__th, .flytable__td{
+  padding: 0.7em;
+}
+
+.flytable__td + .flytable__td{
+  border-left: 1px solid beige;
+}
+.flytable__th + .flytable__th{
+  border-left: 1px dotted white;
+}
+.flytable__tr:hover{
+  background-color: beige;
+
+}
