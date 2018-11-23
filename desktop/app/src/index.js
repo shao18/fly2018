@@ -27,7 +27,7 @@ const routes = [
        */
       {
         path: "(.*)",
-        action: context => <Flies city="Moscow" />
+        action: context => <Flies iata="SIP" />
       }
     ]
   }
