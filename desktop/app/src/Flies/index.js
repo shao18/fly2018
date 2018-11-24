@@ -1,6 +1,6 @@
 import "Flies/css/index.css";
 import FlyIn from "FlyIn";
-import FlyLate from "FlyLate";
+// /import FlyLate from "FlyLate";
 import FlyOut from "FlyOut";
 import FlySearch from "FlySearch";
 import FlyTable from "FlyTable";
@@ -207,10 +207,10 @@ class Flies extends Component {
             onChange={this.show("departure")}
             checked={this.state.show === "departure"}
           />
-          <FlyLate
+          {/* <FlyLate
             onChange={this.show("late")}
             checked={this.state.show === "late"}
-          />
+          /> */}
           <FlyIn
             onChange={this.show("arrival")}
             checked={this.state.show === "arrival"}
